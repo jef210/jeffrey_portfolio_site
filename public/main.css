@@ -4,7 +4,6 @@
 }
 .main-wrapper {
     margin: auto;  
-    text-align: center;
 }
 
 * {
@@ -20,8 +19,13 @@
   background-repeat: repeat-x;
   position: fixed;
   z-index: 100!important;
-  border: 1px solid black;
+  border-bottom: 5px solid grey;
   clear: both;
+}
+.navbar-default {
+  background-color: ghostwhite;
+  border-color: transparent;
+  border-radius: 0px;
 }
 .nav-links {
     float: right;
@@ -30,6 +34,9 @@
   clear: both;
   display: inline-block;
   overflow: auto;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
   /*min-height: 2000px;*/
   /*position: relative;*/
 }
