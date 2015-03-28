@@ -1,16 +1,34 @@
 .main-container {
     background-color: lightgrey;
-    background-position: cover;
+    /*background-position: 100% 100%;*/
 }
 .main-wrapper {
     margin: auto;  
     text-align: center;
 }
 
+* {
+  box-sizing: border-box;
+}
 
-
-
-
+.header {
+  width: 100%;
+  height: 54px;
+  padding: 0px 0px 0px;
+  margin: 0px;
+  background: transparent;
+  background-repeat: repeat-x;
+  position: fixed;
+  /*z-index: 100!important;*/
+  border: 1px solid black;
+  clear: both;
+}
 .nav-links {
     float: right;
+}
+.body-content {
+  clear: both;
+  display: inline-block;
+  overflow: auto;
+  /*position: relative;*/
 }
