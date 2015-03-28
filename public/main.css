@@ -4,4 +4,13 @@
 }
 .main-wrapper {
     margin: auto;  
+    text-align: center;
+}
+
+
+
+
+
+.nav-links {
+    float: right;
 }
