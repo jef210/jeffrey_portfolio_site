@@ -32,7 +32,10 @@
   /*border-radius-bottom: 10%;*/
 }
 .nav-links {
-    float: right;
+  float: right;
+}
+.nav .navbar-nav .nav-links li a {
+  color: red;
 }
 @media (max-width: 767px) {
   .nav-links {
@@ -68,10 +71,9 @@
     margin-left: 60px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .navbar-header h3 {
-    font-size: 1em;
-    margin-left: 60px;
+    display: none;
   }
 }
 .top-content {
