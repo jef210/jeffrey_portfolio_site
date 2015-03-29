@@ -1,9 +1,9 @@
 .main-container {
-    background-color: lightgrey;
-    /*background-position: 100% 100%;*/
+    background-color: transparent;
 }
 .main-wrapper {
     margin: auto;  
+    /*background-position: cover;*/
 }
 
 * {
@@ -19,16 +19,71 @@
   background-repeat: repeat-x;
   position: fixed;
   z-index: 100!important;
-  border-bottom: 5px solid grey;
   clear: both;
 }
 .navbar-default {
   background-color: ghostwhite;
   border-color: transparent;
   border-radius: 0px;
+  width: 100%;
+  border-radius-top: 0px;
+  border-bottom: 8px solid grey;
+  padding-top: 5px;
+  /*border-radius-bottom: 10%;*/
 }
 .nav-links {
     float: right;
+}
+@media (max-width: 767px) {
+  .nav-links {
+    font-size: 1.25em;
+    margin-left: 60px;
+  }
+}
+
+.nav-logo {
+  padding: 0px;
+  /*border: 1px solid black;*/
+  height: 50px;
+  width: 50px;
+}
+.nav-logo img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+.navbar-header h3 {
+  display: block;
+  font-size: 1.5em;
+  color: #777;
+  text-align: left;
+  margin-left: 50px;
+  padding-left: 15px;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .navbar-header h3 {
+    font-size: 1.25em;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-header h3 {
+    font-size: 1em;
+    margin-left: 60px;
+  }
+}
+.top-content {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  position: absolute;
+}
+.top-content h1 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
 }
 .body-content {
   clear: both;
